@@ -1,0 +1,561 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?eemlp8');
+  src:  url('fonts/icomoon.eot?eemlp8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?eemlp8') format('truetype'),
+    url('fonts/icomoon.woff?eemlp8') format('woff'),
+    url('fonts/icomoon.svg?eemlp8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Arrow_Top:before {
+  content: "\e9a3";
+}
+.icon-Arrow-Bottom:before {
+  content: "\e9a4";
+}
+.icon-Like-Filled:before {
+  content: "\e9a5";
+  color: #ff5875;
+}
+.icon-Loyalty:before {
+  content: "\e9a6";
+  color: #ffdf00;
+}
+.icon-Search:before {
+  content: "\e9a7";
+}
+.icon-Sort:before {
+  content: "\e9a8";
+}
+.icon-Announcement-bar-Fill:before {
+  content: "\e962";
+}
+.icon-Announcement-bar-Line:before {
+  content: "\e963";
+}
+.icon-arrows-button-up:before {
+  content: "\e964";
+}
+.icon-arrow-left:before {
+  content: "\e965";
+}
+.icon-arrow-right:before {
+  content: "\e966";
+}
+.icon-arrow-right1:before {
+  content: "\e967";
+}
+.icon-arrow-right2:before {
+  content: "\e968";
+}
+.icon-content-browser-edit:before {
+  content: "\e969";
+}
+.icon-Hot-offer-Fill:before {
+  content: "\e96a";
+}
+.icon-Hot-offer-Line:before {
+  content: "\e9aa";
+}
+.icon-setting-slider:before {
+  content: "\e96b";
+}
+.icon-pencil:before {
+  content: "\e96c";
+}
+.icon-alarm-bell:before {
+  content: "\e96d";
+}
+.icon-question-circle:before {
+  content: "\e96e";
+}
+.icon-date-calender:before {
+  content: "\e96f";
+}
+.icon-Interface-Essential__x2F__Delete__x2F__bin_1:before {
+  content: "\e970";
+}
+.icon-check-circle-validation:before {
+  content: "\e971";
+}
+.icon-remove-circle:before {
+  content: "\e972";
+}
+.icon-headphones-customer-support:before {
+  content: "\e973";
+}
+.icon-house:before {
+  content: "\e974";
+}
+.icon-hyper-link:before {
+  content: "\e975";
+}
+.icon-login-logout:before {
+  content: "\e976";
+}
+.icon-navigation-menu:before {
+  content: "\e977";
+}
+.icon-add-remove:before {
+  content: "\e978";
+}
+.icon-add-circle:before {
+  content: "\e979";
+}
+.icon-remove-add:before {
+  content: "\e97a";
+}
+.icon-remove-add-subtract:before {
+  content: "\e97b";
+}
+.icon-Interface-Essential__x2F__Search__x2F__search_1:before {
+  content: "\e97c";
+}
+.icon-setting-:before {
+  content: "\e97d";
+}
+.icon-Interface-Essential__x2F__Share__x2F__share_1:before {
+  content: "\e97e";
+}
+.icon-arrow-clock:before {
+  content: "\e97f";
+}
+.icon-hour-glass:before {
+  content: "\e980";
+}
+.icon-time-clock-circle:before {
+  content: "\e981";
+}
+.icon-Interface-Essential__x2F__View__x2F__view-1_1:before {
+  content: "\e982";
+}
+.icon-Interface-Essential__x2F__View__x2F__view-off_1:before {
+  content: "\e983";
+}
+.icon-Main-setting-Fill:before {
+  content: "\e984";
+}
+.icon-Main-setting-Line:before {
+  content: "\e985";
+}
+.icon-Maps-Navigation-x2F-Location-x2F-location-target-1:before {
+  content: "\e986";
+}
+.icon-Maps-Navigation__x2F__Pin__x2F__pin-3_1:before {
+  content: "\e987";
+}
+.icon-Maps-Navigation-location:before {
+  content: "\e988";
+}
+.icon-Maps-Navigation__x2F__Pins-Style-Three__x2F__style-three-pin-shop_1:before {
+  content: "\e989";
+}
+.icon-Money-Payments-Finance__x2F__Money__x2F__money-wallet_1:before {
+  content: "\e98a";
+}
+.icon-Phones-Mobile-Devices__x2F__Phone__x2F__phone_1:before {
+  content: "\e98b";
+}
+.icon-Shipment-sync:before {
+  content: "\e98c";
+}
+.icon-Shipping-Delivery__x2F__Shipment__x2F__shipment-in-transit_1:before {
+  content: "\e98d";
+}
+.icon-Shipping-Delivery__x2F__Shipment-Management__x2F__shipment-check_1:before {
+  content: "\e98e";
+}
+.icon-Shipping-Delivery__x2F__Shipment-Management__x2F__shipment-clock_1:before {
+  content: "\e98f";
+}
+.icon-Shipping-Delivery__x2F__Shipment-Management__x2F__shipment-question_1:before {
+  content: "\e990";
+}
+.icon-Shipping-Delivery__x2F__Shipment-Management__x2F__shipment-remove_1:before {
+  content: "\e991";
+}
+.icon-Shopping-E-Commerce__x2F__Discounts_x2F_Coupons__x2F__discount-circle_1:before {
+  content: "\e992";
+}
+.icon-Shopping-E-Commerce__x2F__Discounts_x2F_Coupons__x2F__discount-star-premium_1 .path1:before {
+  content: "\e993";
+  color: rgb(255, 223, 0);
+  opacity: 0.2;
+}
+.icon-Shopping-E-Commerce__x2F__Discounts_x2F_Coupons__x2F__discount-star-premium_1 .path2:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(255, 223, 0);
+}
+.icon-Shopping-E-Commerce__x2F__Discounts_x2F_Coupons__x2F__discount-star-premium_1 .path3:before {
+  content: "\e995";
+  margin-left: -1em;
+  color: rgb(255, 223, 0);
+}
+.icon-Shopping-E-Commerce__x2F__Discounts_x2F_Coupons__x2F__discount-star-premium_1 .path4:before {
+  content: "\e996";
+  margin-left: -1em;
+  color: rgb(255, 223, 0);
+}
+.icon-Shopping-E-Commerce__x2F__Shopping-Bags__x2F__shopping-bag-check_1:before {
+  content: "\e997";
+}
+.icon-Shopping-E-Commerce__x2F__Shopping-Bags__x2F__shopping-bag-fire_1:before {
+  content: "\e998";
+}
+.icon-Shopping-E-Commerce__x2F__Shopping-Bags__x2F__shopping-bag-side_1:before {
+  content: "\e999";
+}
+.icon-Shopping-E-Commerce__x2F__Shops__x2F__shop-cart_1:before {
+  content: "\e99a";
+}
+.icon-Social-Medias-Rewards-Rating__x2F__Love-It__x2F__love-it_1:before {
+  content: "\e99b";
+}
+.icon-Social-Medias-Rewards-Rating__x2F__Rating__x2F__rating-star_1:before {
+  content: "\e99c";
+}
+.icon-Social-Medias-Rewards-Rating__x2F__Rating__x2F__rating-star-three_1:before {
+  content: "\e99d";
+}
+.icon-Users__x2F__Geomertric-Close-Up-Multiple-Users__x2F__multiple-chat_1:before {
+  content: "\e99e";
+}
+.icon-Users__x2F__Geometric-Close-Up-Single-User-Actions-Neutral__x2F__single-neutral-actions_1:before {
+  content: "\e99f";
+}
+.icon-Add:before {
+  content: "\e900";
+}
+.icon-Announcement-bar-Fill1:before {
+  content: "\e901";
+}
+.icon-Announcement-bar-Line1:before {
+  content: "\e903";
+}
+.icon-arrow-left1:before {
+  content: "\e904";
+}
+.icon-Baner-Fill:before {
+  content: "\e905";
+}
+.icon-Baner-Line:before {
+  content: "\e906";
+}
+.icon-Blog-Fill:before {
+  content: "\e907";
+}
+.icon-Blog-Line:before {
+  content: "\e908";
+}
+.icon-Category-Fill:before {
+  content: "\e958";
+}
+.icon-Category-Line:before {
+  content: "\e909";
+}
+.icon-Color-Fill:before {
+  content: "\e90a";
+}
+.icon-Color-Line:before {
+  content: "\e90b";
+}
+.icon-Computer-Line:before {
+  content: "\e90c";
+}
+.icon-Delete:before {
+  content: "\e90d";
+}
+.icon-Edit:before {
+  content: "\e90e";
+}
+.icon-enamad:before {
+  content: "\e90f";
+}
+.icon-Exite:before {
+  content: "\e910";
+}
+.icon-fast_delivery:before {
+  content: "\e911";
+}
+.icon-Footer-LFill:before {
+  content: "\e912";
+}
+.icon-Footer-Line:before {
+  content: "\e913";
+}
+.icon-Header-Fill:before {
+  content: "\e914";
+}
+.icon-Header-Line:before {
+  content: "\e915";
+}
+.icon-Hide:before {
+  content: "\e916";
+}
+.icon-Hot-offer-Fill1:before {
+  content: "\e917";
+}
+.icon-Hot-offer-Line1:before {
+  content: "\e91f";
+}
+.icon-Main-setting-Fill1:before {
+  content: "\e919";
+}
+.icon-Main-setting-Line1:before {
+  content: "\e91a";
+}
+.icon-Mobile:before {
+  content: "\e91b";
+}
+.icon-online_support:before {
+  content: "\e91c";
+}
+.icon-online_support-1:before {
+  content: "\e91d";
+}
+.icon-payment_on_the_spot:before {
+  content: "\e91e";
+}
+.icon-Products-Fill:before {
+  content: "\e920";
+}
+.icon-Products-Line:before {
+  content: "\e921";
+}
+.icon-quality_guarantee:before {
+  content: "\e922";
+}
+.icon-Reorder_dots:before {
+  content: "\e923";
+}
+.icon-send_nationwide:before {
+  content: "\e924";
+}
+.icon-Sevices-Fill:before {
+  content: "\e925";
+}
+.icon-Sevices-Line:before {
+  content: "\e926";
+}
+.icon-View:before {
+  content: "\e927";
+}
+.icon-Arrow-button-up:before {
+  content: "\e918";
+}
+.icon-Arrows-Darrow-button:before {
+  content: "\e928";
+}
+.icon-arrow-right11:before {
+  content: "\e929";
+}
+.icon-Arrowarrow-right:before {
+  content: "\e92a";
+}
+.icon-Arrows-Diagrams:before {
+  content: "\e92b";
+}
+.icon-content-browser:before {
+  content: "\e92c";
+}
+.icon-Facebook:before {
+  content: "\e92d";
+}
+.icon-Instagram:before {
+  content: "\e92e";
+}
+.icon-Interface-setting-slider:before {
+  content: "\e92f";
+}
+.icon-Interface-Essential-x2F-Edit-x2F-pencil-11:before {
+  content: "\e930";
+}
+.icon-Interface-Essential-alarm-bell:before {
+  content: "\e931";
+}
+.icon-question-circle1:before {
+  content: "\e932";
+}
+.icon-Interface-Essential__x2F__Date_calender:before {
+  content: "\e933";
+}
+.icon-delete:before {
+  content: "\e934";
+}
+.icon-check-circle:before {
+  content: "\e935";
+}
+.icon-remove-circle1:before {
+  content: "\e936";
+}
+.icon-headphones-customer-support1:before {
+  content: "\e937";
+}
+.icon-home-house:before {
+  content: "\e938";
+}
+.icon-hyperlink:before {
+  content: "\e94f";
+}
+.icon-login-logout1:before {
+  content: "\e94e";
+}
+.icon-navigation-menu1:before {
+  content: "\e94d";
+}
+.icon-add:before {
+  content: "\e94c";
+}
+.icon-add-circle1:before {
+  content: "\e94b";
+}
+.icon-remove:before {
+  content: "\e94a";
+}
+.icon-subtract:before {
+  content: "\e949";
+}
+.icon-search:before {
+  content: "\e948";
+}
+.icon-setting:before {
+  content: "\e947";
+}
+.icon-share:before {
+  content: "\e946";
+}
+.icon-synchronize-arrow-clock:before {
+  content: "\e945";
+}
+.icon-hourglass-time:before {
+  content: "\e944";
+}
+.icon-time-clock-circle1:before {
+  content: "\e943";
+}
+.icon-view:before {
+  content: "\e942";
+}
+.icon-view-off:before {
+  content: "\e941";
+}
+.icon-LinkedIn:before {
+  content: "\e940";
+}
+.icon-maps-navigation-location-target:before {
+  content: "\e93f";
+}
+.icon-maps-navigation-pin-location:before {
+  content: "\e93e";
+}
+.icon-maps-navigation-location-pin:before {
+  content: "\e93d";
+}
+.icon-style-three-pin-shop-maps-navigation-pin:before {
+  content: "\e93c";
+}
+.icon-money-payment-finance-wallet:before {
+  content: "\e93b";
+}
+.icon-phone-mobile-device:before {
+  content: "\e93a";
+}
+.icon-Shipment-sync-1:before {
+  content: "\e902";
+}
+.icon-shipping-delivery-shipment-in-transit:before {
+  content: "\e939";
+}
+.icon-shipment-delivery-shipment-check-shipment-management:before {
+  content: "\e950";
+}
+.icon-shipment-clock-shipment-delivey-shipment-management:before {
+  content: "\e951";
+}
+.icon-shipment-delivery-shipment-management-shipment-question:before {
+  content: "\e952";
+}
+.icon-shipment-delivery-shiment-management-shipment-remove:before {
+  content: "\e953";
+}
+.icon-Shipping-Delivery__x2F__Shipment-Management__x2F__shipment-sync_1:before {
+  content: "\e9ab";
+}
+.icon-shopping-E-commerce-discount-coupons-discount-circle:before {
+  content: "\e954";
+}
+.icon-shopping-E-commerce-discount-coupons-discount-star-premium .path1:before {
+  content: "\e955";
+  color: rgb(255, 223, 0);
+  opacity: 0.2;
+}
+.icon-shopping-E-commerce-discount-coupons-discount-star-premium .path2:before {
+  content: "\e9a0";
+  margin-left: -1em;
+  color: rgb(255, 223, 0);
+}
+.icon-shopping-E-commerce-discount-coupons-discount-star-premium .path3:before {
+  content: "\e9a1";
+  margin-left: -1em;
+  color: rgb(255, 223, 0);
+}
+.icon-shopping-E-commerce-discount-coupons-discount-star-premium .path4:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  color: rgb(255, 223, 0);
+}
+.icon-shopping-E-commerce-shopping-bags-shopping-bag-check:before {
+  content: "\e956";
+}
+.icon-shopping-E-commerce-shopping-bags-shopping-bag-fire:before {
+  content: "\e957";
+}
+.icon-shopping-E-commerce-shopping-bags-shopping-bag-side:before {
+  content: "\e9a9";
+}
+.icon-shopping-E-commerce-shops-shop-cart:before {
+  content: "\e959";
+}
+.icon-social-medias-rewards-rating-love-it:before {
+  content: "\e95a";
+}
+.icon-social-medias-rewards-rating-rating-rating-star:before {
+  content: "\e95b";
+}
+.icon-social-medias-rewards-rating-rating-rating-star-three:before {
+  content: "\e95c";
+}
+.icon-Telegram:before {
+  content: "\e95d";
+}
+.icon-Twitter:before {
+  content: "\e95e";
+}
+.icon-users-geometric-close-up-multiple-chat-users:before {
+  content: "\e95f";
+}
+.icon-single-neutral-actions-users-geometric-close-up:before {
+  content: "\e960";
+}
+.icon-WhatsApp:before {
+  content: "\e961";
+}

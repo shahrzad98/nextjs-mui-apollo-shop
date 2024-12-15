@@ -1,0 +1,12 @@
+{
+  "extends": ["next", "next/core-web-vitals", "prettier"],
+  "rules": {
+    "no-unused-vars": "error",
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "no-debugger": "error",
+    "no-use-before-define": "error",
+    "@next/next/no-img-element": "off",
+    "no-undef": "error",
+    "react/jsx-key": "off"
+  }
+}

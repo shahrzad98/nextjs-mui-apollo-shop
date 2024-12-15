@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'iransans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/static/assets/fonts/iransans/IRANSansWeb(FaNum)_Light.ttf')
+      format('ttf'),
+    url('/static/assets/fonts/iransans/IRANSansWeb(FaNum)_Light.eot')
+      format('eot'),
+    url('/static/assets/fonts/iransans/IRANSansWeb(FaNum)_Light.woff')
+      format('woff'),
+    url('/static/assets/fonts/iransans/IRANSansWeb(FaNum)_Light.woff2')
+      format('woff2');
+}
+@font-face {
+  font-family: 'iransans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/static/assets/fonts/iransans/iransanswebmedium.ttf') format('ttf'),
+    url('/static/assets/fonts/iransans/iransanswebmedium.eot') format('eot'),
+    url('/static/assets/fonts/iransans/iransanswebmedium.woff') format('woff'),
+    url('/static/assets/fonts/iransans/iransanswebmedium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'iransans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/static/assets/fonts/iransans/iransanswebbold.ttf') format('ttf'),
+    url('/static/assets/fonts/iransans/iransanswebbold.eot') format('eot'),
+    url('/static/assets/fonts/iransans/iransanswebbold.woff') format('woff'),
+    url('/static/assets/fonts/iransans/iransanswebbold.woff2') format('woff2');
+}
+
+* {
+  direction: rtl;
+  font-family: 'iransans' !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.swiper .swiper-button-disabled {
+  pointer-events: all !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dedede;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dedede;
+}
+
+.fs-12 {
+  font-size: calc(7px + 0.4vw);
+}
+
+.fs-14 {
+  font-size: calc(9px + 0.4vw);
+}
+
+.fs-16 {
+  font-size: calc(8px + 0.5vw);
+}
+
+.fs-18 {
+  font-size: calc(10px + 0.5vw);
+}
+
+.fs-20 {
+  font-size: calc(12px + 0.5vw);
+}
+
+.fs-22 {
+  font-size: calc(14px + 0.5vw);
+}
+
+.fs-24 {
+  font-size: calc(16px + 0.5vw);
+}
+
+.fs-32 {
+  font-size: calc(26px + 0.7vw);
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.pointer {
+  cursor: pointer;
+}
